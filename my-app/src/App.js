@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import 'boostrap/dist/css/boostrap.min.css';
+// import 'boostrap/dist/css/boostrap.min.css';
 
 function App() {
   //State
