@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-// import 'boostrap/dist/css/boostrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   //State
@@ -22,7 +22,7 @@ function App() {
     <div className="container text-center mt-5">
       <div className="card">
         <div className="card-body">
-          <h1 className="card-tite">Current Time</h1>
+          <h1 className="card-title">Current Time</h1>
           <h2 className="card-text">{formattedTime}</h2>
         </div>
       </div>
